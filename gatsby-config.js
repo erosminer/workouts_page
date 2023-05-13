@@ -2,14 +2,14 @@ module.exports = {
   pathPrefix: process.env.PATH_PREFIX || '/',
   siteMetadata: {
     siteTitle: 'Workouts Map',
-    siteUrl: 'https://ben29.xyz',
-    logo: 'https://avatars3.githubusercontent.com/u/6956444?s=460&u=97e1062227c4088db3c987146455245c6fa78441',
+    siteUrl: 'https://keep-running-snowy.vercel.app/',
+    logo: 'http://www.logosj.com/wp-content/uploads/2013/10/1-131009132504.png',
     description: 'Personal Workouts Page',
     keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
     navLinks: [
       {
         name: 'Blog',
-        url: 'https://ben29.xyz',
+        url: 'https://keep-running-snowy.vercel.app/',
       },
       {
         name: 'About',
