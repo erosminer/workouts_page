@@ -3,7 +3,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: 'Workouts Map',
     siteUrl: 'https://workouts-page-alpha.vercel.app/',
-    logo: 'https://images.cnblogs.com/cnblogs_com/erosmin-er/1826355/o_200812022758zhuzhu%E5%A4%B4%E5%83%8F.png',
+    logo: './assets/logo.png',
     description: 'Personal Workouts Page',
     keywords: 'workouts, running, cycling, riding, roadtrip, hiking, swimming',
     navLinks: [
