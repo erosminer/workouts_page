@@ -1,9 +1,9 @@
 #!/usr/bin/bash
 ## Just Keep Runing 项目 README
-source $HOME/miniconda3/bin/activate base
+#source $HOME/miniconda3/bin/activate base
 
 #获取咕咚的gpx数据
-python3 scripts/codoon_sync.py --with-gpx 15810800280 ghZJsny_0810
+#python3 scripts/codoon_sync.py --with-gpx 15810800280 ghZJsny_0810
 
 #更新运动数据文件
 python3 scripts/update_activities_file.py
