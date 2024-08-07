@@ -1,12 +1,20 @@
 #!/usr/bin/bash
 ## Just Keep Runing 项目 README
-#source $HOME/miniconda3/bin/activate base
+source $HOME/miniconda3/bin/activate base
 
 #获取咕咚的gpx数据
 #python3 scripts/codoon_sync.py --with-gpx 15810800280 ghZJsny_0810
+# 只能单端登录
+
+#获取行者的gpx数据
+#python3 run_page/xingzhe_sync.py --with-gpx 15810800280 ghZJsny_1997
+#依赖库有问题
+
+#获取高驰的数据
+python3 run_page/coros_sync.py erosminer@qq.com ghZJsny_1997
 
 #更新运动数据文件
-python3 scripts/update_activities_file.py
+python3 run_page/update_activities_file.py
 
 #生成网页静态图片
 # python scripts/gen_svg.py \
