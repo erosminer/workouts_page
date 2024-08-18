@@ -7,8 +7,8 @@ source $HOME/miniconda3/bin/activate base
 # 只能单端登录
 
 #获取行者的gpx数据
-#python3 run_page/xingzhe_sync.py --with-gpx 15810800280 ghZJsny_1997
-#依赖库有问题
+python3 run_page/xingzhe_sync.py --with-gpx 15810800280 ghZJsny_1997
+#依赖库有问题\已解决
 
 #获取高驰的数据
 python3 run_page/coros_sync.py erosminer@qq.com ghZJsny_1997
